@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="https://iuliia-bogdanova.github.io/raccoons_shop/assets/raccoon-big.jpg">
     <title>Raccoon's Shop</title>
     <link rel="icon" type="image/svg+xml" href="./assets/icons/logo.svg" />
 
     <?php wp_head(); ?>
-
-    
 
 </head>
 
